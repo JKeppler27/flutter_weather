@@ -57,7 +57,7 @@ class Weather extends Equatable {
       consolidatedWeather['weather_state_abbr']),
       formattedCondition: consolidatedWeather['weather_state_name'],
       minTemp: consolidatedWeather['min_temp'] as double,
-      temp: consolidatedWeather['temp'] as double,
+      temp: consolidatedWeather['the_temp'] as double,
       maxTemp: consolidatedWeather['max_temp'] as double,
       locationId: json['woeid'] as int,
       created: consolidatedWeather['created'],
