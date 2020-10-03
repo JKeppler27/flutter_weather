@@ -26,7 +26,7 @@ class WeatherConditions extends StatelessWidget {
       case WeatherCondition.heavyCloud:
         image = Image.asset('assets/cloudy.png');
         break;
-      case WeatherCondition.heaveyRain:
+      case WeatherCondition.heavyRain:
       case WeatherCondition.lightRain:
       case WeatherCondition.showers:
         image = Image.asset('assets/rainy.png');

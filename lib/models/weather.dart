@@ -5,7 +5,7 @@ enum WeatherCondition {
   sleet,
   hail,
   thunderstorm,
-  heaveyRain,
+  heavyRain,
   lightRain,
   showers,
   heavyCloud,
@@ -82,7 +82,7 @@ class Weather extends Equatable {
         state = WeatherCondition.thunderstorm;
         break;
       case 'hr':
-        state = WeatherCondition.heaveyRain;
+        state = WeatherCondition.heavyRain;
         break;
       case 'lr':
         state = WeatherCondition.lightRain;
